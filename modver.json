@@ -1,10 +1,11 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-addons/desert-improved-survival",
   "1.16.4": {
-    "0.1": "Initial version. Includes basic recipes."
+    "0.1": "Initial version. Includes basic recipes.",
+    "0.1.1": "Added version checking"
   },
   "promos": {
-    "1.16.4-latest": "0.1",
-    "1.16.4-recommended": "0.1"
+    "1.16.4-latest": "0.1.1",
+    "1.16.4-recommended": "0.1.1"
   }
 }
