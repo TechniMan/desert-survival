@@ -3,10 +3,7 @@ package dev.willthomas.desertsurvival;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.Foods;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Items;
+import net.minecraft.item.*;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -29,8 +26,7 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("desertsurvival")
-public class DesertSurvival
-{
+public class DesertSurvival {
     private static final String MODID = "desertsurvival";
 
     // Items registry
@@ -38,11 +34,10 @@ public class DesertSurvival
     // Registered items
     public static final RegistryObject<Item> CACTUS_SLICE = ITEMS.register("cactus_slice",
             () -> new Item(new Item.Properties()
-                .group(ItemGroup.FOOD)
-                .maxStackSize(16)
-                .food(Foods.MELON_SLICE)
+                    .group(ItemGroup.FOOD)
+                    .maxStackSize(32)
+                    .food(Foods.MELON_SLICE)
             )
-            //Items.MELON_SLICE.getDefaultInstance().copy().setDisplayName(ITextComponent.getTextComponentOrEmpty("Cactus Slice")).getItem().setRegistryName(MODID, "cactus_slice")
     );
 
     // Directly reference a log4j logger.
@@ -67,7 +62,7 @@ public class DesertSurvival
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
+        LOGGER.info("HELLO FROM SETUP");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
