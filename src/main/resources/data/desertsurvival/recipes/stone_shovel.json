@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "minecraft:stone_shovel",
+    "count": 1
+  },
+  "pattern": [
+    "o",
+    "i",
+    "i"
+  ],
+  "key": {
+    "o": [
+      {
+        "item": "minecraft:granite"
+      },
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "minecraft:andesite"
+      },
+      {
+        "item": "minecraft:sandstone"
+      }
+    ],
+    "i": {
+      "item": "minecraft:stick"
+    }
+  }
+}

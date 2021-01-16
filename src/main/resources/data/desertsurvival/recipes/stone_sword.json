@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "minecraft:stone_sword",
+    "count": 1
+  },
+  "pattern": [
+    "o",
+    "o",
+    "i"
+  ],
+  "key": {
+    "o": [
+      {
+        "item": "minecraft:granite"
+      },
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "minecraft:andesite"
+      },
+      {
+        "item": "minecraft:sandstone"
+      }
+    ],
+    "i": {
+      "item": "minecraft:stick"
+    }
+  }
+}

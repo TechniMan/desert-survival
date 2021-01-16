@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  },
+  "pattern": [
+    "oo",
+    "oi",
+    " i"
+  ],
+  "key": {
+    "o": [
+      {
+        "item": "minecraft:granite"
+      },
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "minecraft:andesite"
+      },
+      {
+        "item": "minecraft:sandstone"
+      }
+    ],
+    "i": {
+    "item": "minecraft:stick"
+    }
+  }
+}
