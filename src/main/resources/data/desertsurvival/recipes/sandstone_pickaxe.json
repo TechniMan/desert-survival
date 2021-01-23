@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "desertsurvival:sandstone_pickaxe",
+    "count": 1
+  },
+  "pattern": [
+    "ooo",
+    " i ",
+    " i "
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:sandstone"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  }
+}

@@ -6,6 +6,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.*;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -32,12 +33,29 @@ public class DesertSurvival {
     // Items registry
     private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     // Registered items
-    public static final RegistryObject<Item> CACTUS_SLICE = ITEMS.register("cactus_slice",
-            () -> new Item(new Item.Properties()
-                    .group(ItemGroup.FOOD)
-                    .maxStackSize(32)
-                    .food(Foods.MELON_SLICE)
-            )
+    public static final RegistryObject<Item> CACTUS_SLICE = ITEMS.register(
+        "cactus_slice",
+        () -> new Item((new Item.Properties()).group(ItemGroup.FOOD).food(Foods.MELON_SLICE))
+    );
+    public static final RegistryObject<Item> SANDSTONE_AXE = ITEMS.register(
+        "sandstone_axe",
+        () -> new AxeItem(ItemTier.STONE, 7.0F, -3.2F, new Item.Properties().group(ItemGroup.TOOLS))
+    );
+    public static final RegistryObject<Item> SANDSTONE_HOE = ITEMS.register(
+        "sandstone_hoe",
+        () -> new HoeItem(ItemTier.STONE, -1, -2.0F, (new Item.Properties()).group(ItemGroup.TOOLS))
+    );
+    public static final RegistryObject<Item> SANDSTONE_PICKAXE = ITEMS.register(
+        "sandstone_pickaxe",
+        () -> new PickaxeItem(ItemTier.STONE, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS))
+    );
+    public static final RegistryObject<Item> SANDSTONE_SHOVEL = ITEMS.register(
+        "sandstone_shovel",
+        () -> new ShovelItem(ItemTier.STONE, 1.5F, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS))
+    );
+    public static final RegistryObject<Item> SANDSTONE_SWORD = ITEMS.register(
+        "sandstone_sword",
+        () -> new SwordItem(ItemTier.STONE, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT))
     );
 
     // Directly reference a log4j logger.

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "desertsurvival:sandstone_sword",
+    "count": 1
+  },
+  "pattern": [
+    "o",
+    "o",
+    "i"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:sandstone"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  }
+}

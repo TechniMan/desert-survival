@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "desertsurvival:sandstone_shovel",
+    "count": 1
+  },
+  "pattern": [
+    "o",
+    "i",
+    "i"
+  ],
+  "key": {
+    "o": {
+      "item": "minecraft:sandstone"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  }
+}

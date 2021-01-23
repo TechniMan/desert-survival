@@ -1,3 +1,8 @@
 {
-  "item.desertsurvival.cactus_slice": "Cactus Slice"
+  "item.desertsurvival.cactus_slice": "Cactus Slice",
+  "item.desertsurvival.sandstone_axe": "Sandstone Axe",
+  "item.desertsurvival.sandstone_hoe": "Sandstone Hoe",
+  "item.desertsurvival.sandstone_pickaxe": "Sandstone Pickaxe",
+  "item.desertsurvival.sandstone_shovel": "Sandstone Shovel",
+  "item.desertsurvival.sandstone_sword": "Sandstone Sword"
 }
