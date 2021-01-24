@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "obtain_bonemeal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bonemeal"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "desertsurvival:dirt",
+      "desertsurvival:oak_sapling"
+    ]
+  }
+}

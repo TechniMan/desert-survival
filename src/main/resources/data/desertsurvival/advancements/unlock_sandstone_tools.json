@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "obtain_sandstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sandstone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "desertsurvival:sandstone_axe",
+      "desertsurvival:sandstone_hoe",
+      "desertsurvival:sandstone_pickaxe",
+      "desertsurvival:sandstone_shovel",
+      "desertsurvival:sandstone_sword"
+    ]
+  }
+}

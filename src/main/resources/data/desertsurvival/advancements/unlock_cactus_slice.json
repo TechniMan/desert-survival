@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "obtain_cactus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cactus"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "desertsurvival:cactus_slice"
+    ]
+  }
+}
