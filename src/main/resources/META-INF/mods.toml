@@ -8,10 +8,10 @@ license="GNU General Public License version 3"
 issueTrackerURL="https://www.curseforge.com/minecraft/mc-addons/desert-improved-survival/issues" #optional
 [[mods]]
 modId="desertsurvival"
-version="0.2"
+version="1.0"
 displayName="Desert Survival"
 # A URL to query for updates for this mod. See the JSON update specification <here>
-updateJSONURL="https://github.com/TechniMan/desert-survival/blob/main/modver.json" #optional
+updateJSONURL="https://raw.githubusercontent.com/TechniMan/desert-survival/main/modver.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://www.curseforge.com/minecraft/mc-addons/desert-improved-survival" #optional
 # A file name (in the root of the mod JAR) containing a logo for display

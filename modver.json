@@ -3,10 +3,11 @@
   "1.16.4": {
     "0.1": "Initial version. Includes basic recipes.",
     "0.1.1": "Added version checking",
-    "0.2": "The cactus slice now has a proper display name and created a new icon for it (based on the melon slice icon)"
+    "0.2": "The cactus slice now has a proper display name and created a new icon for it (based on the melon slice icon)",
+    "1.0": "Added sandstone tools that work like stone tools, with unique icons.\nAdded recipe to combine sticks into planks.\nAdded advancements to unlock recipes when relevant materials are found."
   },
   "promos": {
-    "1.16.4-latest": "0.2",
-    "1.16.4-recommended": "0.2"
+    "1.16.4-latest": "1.0",
+    "1.16.4-recommended": "1.0"
   }
 }
