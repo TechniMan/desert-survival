@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "obtain_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "desertsurvival:oak_planks"
+    ]
+  }
+}
